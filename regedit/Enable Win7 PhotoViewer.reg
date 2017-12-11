@@ -1,9 +1,8 @@
 Windows Registry Editor Version 5.00
+; Source: https://www.howtogeek.com/225844/how-to-make-windows-photo-viewer-your-default-image-viewer-on-windows-10/
 
 [HKEY_CLASSES_ROOT\Applications\photoviewer.dll]
-
 [HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell]
-
 [HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\open]
 "MuiVerb"="@photoviewer.dll,-3043"
 
@@ -21,7 +20,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\open\DropTarget]
 "Clsid"="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}"
-
 [HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\print]
 
 [HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\print\command]
