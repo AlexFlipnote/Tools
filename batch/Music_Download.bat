@@ -1,9 +1,10 @@
 @echo off
 
 where ffmpeg
+where youtube-dl
 cls
 IF %ERRORLEVEL% NEQ 0 (
-  ECHO You might need to install ffmpeg
+  ECHO You have to install both ffmpeg and youtube-dl
   pause
   exit
 )
