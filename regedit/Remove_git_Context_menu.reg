@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+; Removes git from the context menu.
+
+[-HKEY_CLASSES_ROOT\Directory\background\shell\git_gui]
+[-HKEY_CLASSES_ROOT\Directory\background\shell\git_shell]
+[-HKEY_CLASSES_ROOT\Directory\Shell\git_gui]
+[-HKEY_CLASSES_ROOT\Directory\Shell\git_shell]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\git_gui]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\git_shell]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\git_gui]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\git_shell]
