@@ -1,4 +1,5 @@
 Windows Registry Editor Version 5.00
+; NOTE: This is my own pre-set, keep that in mind.
 
 [HKEY_CURRENT_USER\Console]
 "ColorTable00"=dword:00000000
